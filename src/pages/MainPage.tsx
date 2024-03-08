@@ -1,4 +1,4 @@
-import {React} from 'react'
+import React from 'react'
 
 const MainPage: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const MainPage: React.FC = () => {
           <button id="btnMultiply">x</button>
           <button id="btnDivide">/</button>
           <button id="btnPercent">%</button>
-          <button id="btnFactorial">x!</button> 
+          <button id="btnFactorial">x!</button>
           <button id="btnEquals">=</button>
           <button id="btnDecimalSeparator">=</button>
           <button id="btn0">0</button>
