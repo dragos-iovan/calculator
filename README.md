@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+# Simple Calculator App
+## App Description
+The Application is meant to be a React+Typescript App that does simple math calculations, similar to the calculator apps present in mobile devices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
+## App Tech Stack: Vite - React + TypeScript + ESLint
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Testing - Vitest, React-Testing-Library and Jest
+- Using the Vitest test runner with React Testing Library for testing interface components functionality. Using Jest Testing Framework for assertions.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Linting - ESLint with AirBNB-TS Standard
+- This project uses the linter with the AirBnb standard for TypeScript.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Version Control: GIT, GITHUB, GitFlow
+- I am using Git as the version control system with the remote repository stored on GitHub and taking advantage of the GitFlow branching model.
